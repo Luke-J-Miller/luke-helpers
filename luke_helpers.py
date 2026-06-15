@@ -104,7 +104,14 @@ def load_ipython_extension(ipython):
     
     print("💎 Luke's Helpers Loaded: `%%process`, `play_beep()`, and `play_chime()` are armed.")
 
+```
+Usage:
 
+# Pull down the comprehensive suite from your GitHub repo
+!curl -O https://raw.githubusercontent.com/Luke-J-Miller/luke-helpers/refs/heads/main/luke_helpers.py
+# Initialize the extension
+%load_ext luke_helpers
+```
 
 ```
 # Pull down the comprehensive suite from your GitHub repo
