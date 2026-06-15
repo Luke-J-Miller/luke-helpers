@@ -6,6 +6,17 @@ from io import StringIO
 from IPython.core.magic import register_cell_magic
 from IPython.display import Audio, display
 
+
+"""Usage:
+
+# Pull down the comprehensive suite from your GitHub repo
+!curl -O https://raw.githubusercontent.com/Luke-J-Miller/luke-helpers/refs/heads/main/luke_helpers.py
+# Initialize the extension
+%load_ext luke_helpers
+"""
+
+
+
 # =====================================================================
 # GLOBAL FOOTPRINT CONFIGURATION
 # =====================================================================
@@ -104,19 +115,6 @@ def load_ipython_extension(ipython):
     
     print("💎 Luke's Helpers Loaded: `%%process`, `play_beep()`, and `play_chime()` are armed.")
 
-```
-Usage:
 
-# Pull down the comprehensive suite from your GitHub repo
-!curl -O https://raw.githubusercontent.com/Luke-J-Miller/luke-helpers/refs/heads/main/luke_helpers.py
-# Initialize the extension
-%load_ext luke_helpers
-```
 
-```
-# Pull down the comprehensive suite from your GitHub repo
-!curl -O https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/main/luke_helpers.py
 
-# Initialize the extension
-%load_ext luke_helpers
-```
