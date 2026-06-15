@@ -1,11 +1,11 @@
 # The Process Engine: Notebook Cell Latching and Output Replay
 
 ## TL;DR
-# 💎 Luke's Helpers: Zero-overhead cell caching & browser audio alert engine.
-# 🧱 Usage: Place '%%process' at the very top of any heavy cell (Default: log_and_lock). It won't run again with `Run All` or shift click.
-# 🔄 Modes: Append 'run' to prototype actively, or 'log' to force a fresh cache overwrite.
-# ⚠️ Note: Any inner code change automatically changes the SHA-256 hash and triggers a re-run.
-# 🎵 Utilities: Call 'play_beep()' or 'play_chime()' anywhere to alert when a loop finishes.
+- 💎 Luke's Helpers: Zero-overhead cell caching & browser audio alert engine.
+- 🧱 Usage: Place '%%process' at the very top of any heavy cell (Default: log_and_lock). It won't run again with `Run All` or shift click.
+- 🔄 Modes: Append 'run' to prototype actively, or 'log' to force a fresh cache overwrite.
+-  ⚠️ Note: Any inner code change automatically changes the SHA-256 hash and triggers a re-run.
+-  🎵 Utilities: Call 'play_beep()' or 'play_chime()' anywhere to alert when a loop finishes.
 
 ```
 # Pull down the comprehensive suite from your GitHub repo
